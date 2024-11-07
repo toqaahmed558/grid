@@ -34,7 +34,7 @@
 
     align-items: center;
     flex-wrap: wrap;
-    
+    height: 100%;
     width: 70%;
     margin: auto;
    
@@ -51,32 +51,35 @@
 .child1 .right{
     width: 50%;
     
-    
 }
 .child1 .right img{
- 
 width: 90%;
  
 }
 .child2{
     grid-area: child2;
     background-color: #F7F8F9;
+    display: flex;
+    justify-content: center;
      text-align: center;
       align-items: center;
 }
 .child2 .caption{
-    width: 70%; 
+    width: 80%; 
     margin: auto;
-     margin-top: 70px;
+    /* background-color: #8166B0; */
+     /* margin-top: 70px; */
+     padding-block: 35px;
 }
 .child2 .caption h3{
-    font-size: 48px; 
+    font-size: 40px; 
     margin-block: 20px;
 }
 .child2 .caption a{
     color: rgb(39, 185, 194);
-     margin-block: 10px ;
+     /* margin-block: 10px ; */
       display: inline;
+      /* padding-block: 20px; */
 }
 .child3{
     grid-area: child3;
@@ -320,7 +323,7 @@ text-align: center;
     background-color: #35CFED; 
     padding: 50px;
     border-radius: 50%;
-   width: 60%;
+   width: 240px;
    margin: auto;
 }
 .child8 .inner h3{
