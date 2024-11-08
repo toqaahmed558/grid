@@ -426,7 +426,7 @@ h3{
     font-style: italic;
     color: rgb(51, 51, 51);
 }
-@media (max-width:1023px){
+@media (max-width:767px){
     .parent{
        
      grid-template-areas:
@@ -522,7 +522,25 @@ padding-bottom: 40px;
 }
 
 }
+@media (min-width:768px) and (max-width:1023px){
+   .parent{
+    grid-template-areas:
+    "child2  child2" 
+    "child1  child1"
+    "child3  child6"
 
+    "child4  child4"
+    " child8  child5 "
+    "child7  child5"
+
+    
+    "child9 child9"
+    "child10 child10";
+    grid-template-columns: 1fr 1fr;
+  
+   }
+  
+}
 
 
 
